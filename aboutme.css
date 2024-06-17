@@ -1,156 +1,163 @@
-body {
-    background-color: antiquewhite;
+body
+{
+    background-color: blanchedalmond;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 90px;
-    align-items: center;
+h1
+{
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
 }
 
-.bar {
-    background-color: white;
-    line-height: 10px;
+.bar 
+{
+    background-color: rgb(252, 197, 94);
+    line-height: 13px;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.ul {
-    list-style-type: none;
-    margin: 10px;
-    margin-left: 5px;
-    padding: 10px;
-    width: 95vw;
-    background-color: rgb(152, 184, 97);
-    border-color: rgb(49, 48, 48);
-    border-style: double;
-    border-width: 10px;
-    height: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    line-height: 3;
-    font-size: 23px;
-    position: sticky;
-}
-
-.my {
-    list-style-type: none;
-    padding: 10px;
-    width: 400px;
-    background-color: rgb(228, 245, 199);
-    border-color: rgb(149, 186, 156);
-    border-style: double;
-    border-width: 10px;
-    height: 530px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    line-height: 2;
-    font-size: 20px;
-    margin: 0px;
-    margin-left: 40px;
-    margin-top: 10px;
-}
-
-.my1 {
-    list-style-type: none;
-    padding: 10px;
-    width: 400px;
-    background-color: rgb(228, 245, 199);
-    border-color: rgb(149, 186, 156);
-    border-style: double;
-    border-width: 10px;
-    height: 530px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    line-height: 2;
-    font-size: 20px;
-    margin-left: 40px;
-    margin-top: 10px;
-}
-
-.my2 {
-    list-style-type: none;
-    padding: 10px;
-    width: 400px;
-    background-color: rgb(228, 245, 199);
-    border-color: rgb(149, 186, 156);
-    border-style: double;
-    border-width: 10px;
-    height: 530px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    line-height: 2;
-    font-size: 20px;
-    margin-left: 40px;
-    margin-top: 10px;
-}
-
-.top
+ul 
 {
-    display: flex;
-}
-
-.my3 {
-    list-style-type: none;
-    padding: 10px;
-    width: 400px;
-    background-color: rgb(228, 245, 199);
-    border-color: rgb(149, 186, 156);
-    border-style: double;
-    border-width: 10px;
-    height: 530px;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 211, 130);
+    border-color:rgb(255, 255, 255);
+    border-style:solid;
+    border-width: 4px;
+    border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    line-height: 2;
-    font-size: 20px;
-    margin-left: 40px;
-    margin-top: 10px;
+    font-size: 25px;    
 }
-.bottom
-{
-    display: flex;
-}
-
+  
 li {
     float: left;
 }
-
-li a {
+  
+li a 
+{
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-top: -25px;
+    padding: 14px 16px;
     text-decoration: none;
 }
+  
+li a:hover
+{
+    background-color: #ffffff;
+}
 
-.pic {
-    flex-direction: column;
-    margin-left: 90px;
-    margin-top: 150px;
+.about
+{
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(172, 200, 174);
+    border-style: solid;
+    width: 460px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 4px;
+    display: flex;
+    flex-direction: row;
+}
+
+img 
+{
+    border: 4px solid #ffffff;
+    border-radius: 10px;
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+.pic 
+{
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -5px;
+    padding-bottom: 10px;
+    height: 400px;
 }
 
-li a {
-    display: block;
-    color: black;
-    padding: 8px;
-    text-decoration: none;
-    height: 90%;
-    font-size: 30px;
+.hobbies
+{   
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 380px;
+    padding: 20px;
+    font-size: 20px;
 }
 
-li a:hover {
-    background-color: aliceblue;
-    border-radius: 20px;
+/* ------------------------------------------------------------------------------------- */
+
+.pic2
+{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    height: 400px;
+    background-color: rgb(172, 200, 174);
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+
+}
+
+.hobbies2
+{   
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 380px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.pic3
+{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    height: 400px;
+    background-color: rgb(172, 200, 174);
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.hobbies3
+{   
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 380px;
+    padding: 20px;
+    font-size: 20px;
 }

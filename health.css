@@ -84,7 +84,7 @@ img
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: -5px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     height: 400px;
 }
 
@@ -95,7 +95,38 @@ img
     border-color: rgb(255, 255, 255);
     border-style: solid;
     width: 380px;
-    padding: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.pic2
+{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
     padding-bottom: 10px;
+    height: 400px;
+    background-color: rgb(172, 200, 174);
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+
+}
+
+.hobbies2
+{   
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 380px;
+    padding: 20px;
     font-size: 20px;
 }
